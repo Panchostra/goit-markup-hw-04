@@ -4,12 +4,10 @@
 }
 .button {
   font-weight: 500;
-
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
   background: #4d5ae5;
   width: 169px;
   height: 56px;
@@ -305,4 +303,34 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.item.section .icon {
+  width: 64px;
+  height: 64px;
+}
+.item.section .icon-box {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F4F4FD;
+  height:112px;
+  width: 264px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+ 
+}
+.team.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+
+}
+.icon-circle {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4D5AE5;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
 }
