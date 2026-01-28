@@ -124,9 +124,13 @@ ul {
   list-style: none;
 }
 .page-footer {
+  display:flex;
+  flex-direction: row;
   background-color: #2e2f42;
   padding: 100px 0;
   padding-left: 156px;
+  gap:120px;
+
 }
 .footer-text {
   color: #f4f4fd;
@@ -160,6 +164,7 @@ ul {
 .footer-box {
   width: 264px;
   height: 112px;
+
 }
 .footer-logo {
   height: 24px;
@@ -333,4 +338,24 @@ ul {
   width:40px;
   height:40px;
   border-radius: 50%;
+}
+.footer-socials-text {
+  font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+}
+.footer.team.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.footer-socials {
+   display: flex;
+   flex-direction: column;
+   width: max-content;
+   gap: 16px;
+  
+  
 }
